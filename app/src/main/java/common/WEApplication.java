@@ -13,12 +13,11 @@ import com.squareup.leakcanary.RefWatcher;
 import org.json.JSONArray;
 import org.json.JSONException;
 import org.json.JSONObject;
-
-import me.jessyan.mvparms.demo.BuildConfig;
-import me.jessyan.mvparms.demo.di.module.CacheModule;
-import me.jessyan.mvparms.demo.di.module.ServiceModule;
-import me.jessyan.mvparms.demo.mvp.model.api.Api;
 import me.jessyan.rxerrorhandler.handler.listener.ResponseErroListener;
+import me.jiatao.pastime.BuildConfig;
+import me.jiatao.pastime.di.module.CacheModule;
+import me.jiatao.pastime.di.module.ServiceModule;
+import me.jiatao.pastime.mvp.model.api.Api;
 import okhttp3.Interceptor;
 import okhttp3.Request;
 import okhttp3.Response;
